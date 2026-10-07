@@ -19,9 +19,9 @@ python3 -m http.server 8000
 
 ## Publicar no GitHub Pages (atual)
 
-O site está na raiz do repositório (`index.html`). No GitHub: **Settings > Pages > Source: Deploy from a branch > `main` / `(root)`**. O repositório precisa ser público (no plano gratuito). Endereço: https://bonafe.github.io/programadorespelademocracia/
+O site está na raiz do repositório (`index.html`). No GitHub: **Settings > Pages > Source: Deploy from a branch > `main` / `(root)`**. O repositório precisa ser público (no plano gratuito). Endereço: https://programadorespelademocracia.org/ (CNAME) e https://bonafe.github.io/programadorespelademocracia/
 
-Ao ter domínio próprio, troque `canonical`, `og:url`, `og:image` em `index.html` e `url` em `site.js`, e crie o arquivo `CNAME`.
+Se o domínio mudar, troque `canonical`, `og:url`, `og:image` em `index.html` e `url` em `site.js`, e edite o arquivo `CNAME`.
 
 ## Publicar na Cloudflare (alternativa)
 
