@@ -4,7 +4,7 @@ export const SITE = {
     // Enquanto estiverem vazios, os botões levam à seção #grupo com aviso.
     grupos: {
         // Fase 1: ideias e enquetes, aberto a todos.
-        comunidade: '',
+        comunidade: 'https://chat.whatsapp.com/BzrgC1Rys9gBSxzbYyLSYO',
         // Especificação e desenvolvimento.
         desenvolvimento: '',
     },
