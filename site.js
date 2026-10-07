@@ -8,6 +8,8 @@ export const SITE = {
         // Especificação e desenvolvimento.
         desenvolvimento: 'https://chat.whatsapp.com/CE4y7F8SPNgAp3iFGAbabt',
     },
+    // Enquete de ideias (Google Forms). Vazio: o botão leva à seção #grupo.
+    enquete: 'https://forms.gle/LNxqwJv8DNbgCWgB8',
     // Repositório do projeto (opcional; vazio esconde o link).
     github: '',
     // 25/10/2026, 08:00 em Brasília (UTC-3), abertura das urnas.

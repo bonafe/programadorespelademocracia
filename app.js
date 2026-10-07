@@ -14,6 +14,15 @@ for (const link of $$('[data-whatsapp]')) {
 }
 document.documentElement.classList.toggle('has-group', Object.values(SITE.grupos).every(Boolean));
 
+// Enquete (botões com data-enquete)
+if (SITE.enquete) {
+    for (const link of $$('[data-enquete]')) {
+        link.href = SITE.enquete;
+        link.target = '_blank';
+        link.rel = 'noopener';
+    }
+}
+
 if (SITE.github) {
     for (const link of $$('[data-github]')) {
         link.href = SITE.github;
