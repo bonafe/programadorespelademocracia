@@ -1,0 +1,11 @@
+.git
+.github
+node_modules
+.wrangler
+README.md
+LICENSE
+package.json
+package-lock.json
+wrangler.jsonc
+.assetsignore
+.nojekyll
