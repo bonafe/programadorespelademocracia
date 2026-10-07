@@ -17,7 +17,13 @@ npm run dev        # wrangler dev
 python3 -m http.server -d public 8000
 ```
 
-## Publicar
+## Publicar no GitHub Pages (atual)
+
+O workflow `.github/workflows/pages.yml` publica `public/` a cada push na `main`. Uma vez só: no GitHub, **Settings > Pages > Source: GitHub Actions**. O repositório precisa ser público (no plano gratuito). Endereço: https://bonafe.github.io/programadorespelademocracia/
+
+Ao ter domínio próprio, troque `canonical`, `og:url`, `og:image` em `index.html` e `url` em `site.js`, e crie `public/CNAME`.
+
+## Publicar na Cloudflare (alternativa)
 
 ```
 npx wrangler login

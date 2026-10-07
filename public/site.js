@@ -12,5 +12,6 @@ export const SITE = {
     github: '',
     // 25/10/2026, 08:00 em Brasília (UTC-3), abertura das urnas.
     eleicao: '2026-10-25T08:00:00-03:00',
-    url: 'https://codigopelademocracia.org.br',
+    // Trocar para https://codigopelademocracia.org.br quando o domínio existir.
+    url: 'https://bonafe.github.io/programadorespelademocracia/',
 };
