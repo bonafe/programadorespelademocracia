@@ -14,7 +14,7 @@ Landing page estática (HTML, CSS e JavaScript puro, sem build), servida por Clo
 npm install
 npm run dev        # wrangler dev
 # ou, sem instalar nada:
-python3 -m http.server -d public 8000
+python3 -m http.server 8000
 ```
 
 ## Publicar no GitHub Pages (atual)
