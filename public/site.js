@@ -6,7 +6,7 @@ export const SITE = {
         // Fase 1: ideias e enquetes, aberto a todos.
         comunidade: 'https://chat.whatsapp.com/BzrgC1Rys9gBSxzbYyLSYO',
         // Especificação e desenvolvimento.
-        desenvolvimento: '',
+        desenvolvimento: 'https://chat.whatsapp.com/CE4y7F8SPNgAp3iFGAbabt',
     },
     // Repositório do projeto (opcional; vazio esconde o link).
     github: '',
