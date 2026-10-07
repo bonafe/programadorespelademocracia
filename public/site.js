@@ -1,8 +1,13 @@
 // Único lugar para editar links e a data da eleição.
 export const SITE = {
-    // Link de convite do grupo: WhatsApp > Info. do grupo > Convidar via link.
-    // Enquanto estiver vazio, os botões levam à seção #grupo com aviso.
-    grupoWhatsApp: '',
+    // Links de convite dos grupos: WhatsApp > Info. do grupo > Convidar via link.
+    // Enquanto estiverem vazios, os botões levam à seção #grupo com aviso.
+    grupos: {
+        // Fase 1: ideias e enquetes, aberto a todos.
+        comunidade: '',
+        // Especificação e desenvolvimento.
+        desenvolvimento: '',
+    },
     // Repositório do projeto (opcional; vazio esconde o link).
     github: '',
     // 25/10/2026, 08:00 em Brasília (UTC-3), abertura das urnas.

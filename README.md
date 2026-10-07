@@ -4,7 +4,7 @@ Landing page estática (HTML, CSS e JavaScript puro, sem build), servida por Clo
 
 ## Editar
 
-- `public/site.js`: **link do grupo do WhatsApp**, GitHub e data da eleição. É o único arquivo que precisa de ajuste para publicar.
+- `public/site.js`: **links dos dois grupos do WhatsApp** (comunidade e desenvolvimento), GitHub e data da eleição. É o único arquivo que precisa de ajuste para publicar.
 - `public/index.html`: textos. As três frentes em `#frentes` são rascunho.
 - `public/_headers`: cache e cabeçalhos de segurança.
 

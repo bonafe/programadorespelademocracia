@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0f0c">
     <title>Programadores pela Democracia 2026</title>
-    <meta name="description" content="Faltam poucos dias para a eleição. Programadores, designers e gente de tecnologia construindo, em código aberto e com fontes, a participação democrática. Entre no grupo do WhatsApp.">
+    <meta name="description" content="Que sistema ajudaria a democracia? Dê a sua ideia na comunidade do WhatsApp. As ideias viram especificação e código aberto, com fontes e assinatura de quem afirma.">
     <link rel="canonical" href="https://codigopelademocracia.org.br/">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
 
@@ -13,7 +13,7 @@
     <meta property="og:locale" content="pt_BR">
     <meta property="og:site_name" content="Código pela Democracia">
     <meta property="og:title" content="Programadores pela Democracia 2026">
-    <meta property="og:description" content="Código aberto, fontes e participação. Entre no grupo do WhatsApp e ajude a construir.">
+    <meta property="og:description" content="Que sistema ajudaria a democracia? Sua ideia vira especificação e código aberto.">
     <meta property="og:url" content="https://codigopelademocracia.org.br/">
     <meta property="og:image" content="https://codigopelademocracia.org.br/og.png">
     <meta property="og:image:width" content="1200">
@@ -34,7 +34,7 @@
                 <a href="#grupo">grupo</a>
                 <a href="#frentes">o que fazemos</a>
                 <a href="#origem">origem da informação</a>
-                <a href="#participar">participar</a>
+                <a href="#como">como funciona</a>
                 <a href="#regras">regras</a>
                 <a href="#" data-github hidden>github</a>
             </nav>
@@ -47,7 +47,7 @@
             <div class="wrap">
                 <p class="prompt"><b>$</b> git commit -m "democracia"<span class="cursor" aria-hidden="true"></span></p>
                 <h1>Programadores<br>pela <em>Democracia</em><br>2026</h1>
-                <p class="lead">Quem escreve código sabe: sistema que ninguém audita, ninguém confere e ninguém pode corrigir acaba falhando. Democracia também. Estamos construindo, em código aberto e com fontes, o que dá para entregar <strong>antes da eleição</strong>.</p>
+                <p class="lead">Quem escreve código sabe: sistema bom começa por ouvir quem vai usar. Antes de construir qualquer coisa, queremos saber <strong>que sistemas você acha que ajudariam a democracia</strong>. Sua ideia vem primeiro; o código vem depois.</p>
 
                 <div class="countdown" data-countdown>
                     <span class="date">Eleição: 25 de outubro de 2026</span>
@@ -58,42 +58,65 @@
                 </div>
 
                 <div class="actions">
-                    <a class="btn btn-wa" href="#grupo" data-whatsapp>
+                    <a class="btn btn-wa" href="#grupo" data-whatsapp="comunidade">
                         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2a9.93 9.93 0 0 0-8.5 15.07L2 22l5.07-1.5A9.94 9.94 0 1 0 12.04 2zm5.8 14.1c-.24.68-1.42 1.3-1.96 1.35-.5.05-1.12.07-1.8-.11a14.4 14.4 0 0 1-4.9-3.03 8.9 8.9 0 0 1-1.8-2.6c-.4-.9-.1-1.5.5-2.1.2-.2.4-.3.6-.3h.4c.2 0 .35 0 .5.4l.7 1.7c.1.15.1.3 0 .45l-.35.5-.4.4c-.15.15-.3.3-.1.6.2.3.8 1.25 1.7 2 1.15 1 2.1 1.3 2.4 1.45.3.15.45.1.6-.1l.7-.9c.2-.25.4-.2.6-.1l1.8.85c.25.12.4.2.5.3.05.2.05.7-.2 1.4z"/></svg>
-                        Entrar no grupo do WhatsApp
+                        Dar minha ideia no WhatsApp
                     </a>
-                    <a class="btn btn-ghost" href="#frentes">Ver o que estamos fazendo</a>
+                    <a class="btn btn-ghost" href="#como">Como funciona</a>
                 </div>
             </div>
         </section>
 
-        <!-- O grupo é o centro do projeto: tarefas, pessoas e divulgação passam por ele. -->
+        <!-- Fase 1: colher ideias. Dois grupos: comunidade (ideias/enquetes) e construção (especificação/desenvolvimento). -->
         <section id="grupo" class="grupo" aria-labelledby="t-grupo">
             <div class="wrap">
-                <h2 id="t-grupo">Tudo começa no grupo</h2>
-                <p class="lead">O grupo do WhatsApp é a nossa sala de operações. É lá que as tarefas aparecem, que a gente se organiza e que o que for feito vira alcance. Sem burocracia: você entra, diz o que sabe fazer e pega uma tarefa.</p>
+                <h2 id="t-grupo">Você está no centro</h2>
+                <p class="lead">A primeira fase é ouvir. Na comunidade do WhatsApp lançamos enquetes e perguntas abertas, e você diz que sistema, ferramenta ou serviço relacionado à democracia faria diferença na sua vida. Não precisa saber programar.</p>
 
-                <div class="chat" role="img" aria-label="Exemplo de conversa do grupo">
-                    <div class="msg"><b>coordenação</b>Precisamos de alguém para revisar acessibilidade da página dos vídeos 🙋</div>
-                    <div class="msg me"><b>você</b>Eu pego. Sou dev front-end, tenho 2h hoje.</div>
-                    <div class="msg"><b>coordenação</b>Fechado. Issue aberta, é sua. Valeu!</div>
+                <div class="chat" role="img" aria-label="Exemplo de enquete na comunidade">
+                    <div class="msg"><b>enquete</b>O que mais falta para você conferir uma informação política antes de repassar?<br><span class="muted">▫ saber quem disse · ▫ ver a fonte · ▫ saber se foi corrigida · ▫ outra</span></div>
+                    <div class="msg me"><b>você</b>Eu queria ver a fonte original sem sair do zap. Daria para ter um link que mostra isso?</div>
+                    <div class="msg"><b>coordenação</b>Boa! Anotado na lista de ideias, vai para a rodada de especificação.</div>
                 </div>
 
-                <div class="actions">
-                    <a class="btn btn-wa" href="#grupo" data-whatsapp>
-                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2a9.93 9.93 0 0 0-8.5 15.07L2 22l5.07-1.5A9.94 9.94 0 1 0 12.04 2zm5.8 14.1c-.24.68-1.42 1.3-1.96 1.35-.5.05-1.12.07-1.8-.11a14.4 14.4 0 0 1-4.9-3.03 8.9 8.9 0 0 1-1.8-2.6c-.4-.9-.1-1.5.5-2.1.2-.2.4-.3.6-.3h.4c.2 0 .35 0 .5.4l.7 1.7c.1.15.1.3 0 .45l-.35.5-.4.4c-.15.15-.3.3-.1.6.2.3.8 1.25 1.7 2 1.15 1 2.1 1.3 2.4 1.45.3.15.45.1.6-.1l.7-.9c.2-.25.4-.2.6-.1l1.8.85c.25.12.4.2.5.3.05.2.05.7-.2 1.4z"/></svg>
-                        Entrar agora
-                    </a>
-                    <button class="btn btn-ghost" type="button" data-share>Chamar outra pessoa</button>
+                <div class="two">
+                    <article class="card">
+                        <span class="tag">comunidade · para todo mundo</span>
+                        <h3>Ideias e enquetes</h3>
+                        <p>Você responde enquetes, propõe ideias e vota no que importa. É aqui que o projeto começa.</p>
+                        <a class="btn btn-wa" href="#grupo" data-whatsapp="comunidade"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2a9.93 9.93 0 0 0-8.5 15.07L2 22l5.07-1.5A9.94 9.94 0 1 0 12.04 2zm5.8 14.1c-.24.68-1.42 1.3-1.96 1.35-.5.05-1.12.07-1.8-.11a14.4 14.4 0 0 1-4.9-3.03 8.9 8.9 0 0 1-1.8-2.6c-.4-.9-.1-1.5.5-2.1.2-.2.4-.3.6-.3h.4c.2 0 .35 0 .5.4l.7 1.7c.1.15.1.3 0 .45l-.35.5-.4.4c-.15.15-.3.3-.1.6.2.3.8 1.25 1.7 2 1.15 1 2.1 1.3 2.4 1.45.3.15.45.1.6-.1l.7-.9c.2-.25.4-.2.6-.1l1.8.85c.25.12.4.2.5.3.05.2.05.7-.2 1.4z"/></svg>Entrar na comunidade</a>
+                    </article>
+                    <article class="card">
+                        <span class="tag">construção · quem quer especificar e programar</span>
+                        <h3>Especificação e desenvolvimento</h3>
+                        <p>As ideias da comunidade, já compiladas, viram especificação e depois código aberto. Para quem quer pôr a mão na massa.</p>
+                        <a class="btn btn-ghost" href="#grupo" data-whatsapp="desenvolvimento">Entrar no grupo de construção</a>
+                    </article>
                 </div>
-                <p class="notice">Link do grupo ainda não configurado (edite <code>public/site.js</code>).</p>
+
+                <button class="btn btn-ghost" type="button" data-share>Chamar outra pessoa</button>
+                <p class="muted small">Em grupos de WhatsApp, os outros participantes podem ver o seu número. Entre só se estiver confortável com isso.</p>
+                <p class="notice">Links dos grupos ainda não configurados (edite <code>public/site.js</code>).</p>
+            </div>
+        </section>
+
+        <section id="como" aria-labelledby="t-como">
+            <div class="wrap">
+                <h2 id="t-como">Do seu palpite ao código</h2>
+                <ol class="steps">
+                    <li><div><b>Você dá a ideia</b><span>Respondendo enquetes e perguntas na comunidade.</span></div></li>
+                    <li><div><b>A gente compila</b><span>Agrupamos as ideias parecidas e mostramos o que mais apareceu.</span></div></li>
+                    <li><div><b>Vira especificação</b><span>O grupo de construção transforma as mais fortes em algo que dá para programar.</span></div></li>
+                    <li><div><b>Construímos em código aberto</b><span>Qualquer pessoa pode ler, auditar e sugerir mudança.</span></div></li>
+                    <li><div><b>Devolvemos o resultado</b><span>Mostramos o que foi escolhido e o que ficou de fora, com o motivo.</span></div></li>
+                </ol>
             </div>
         </section>
 
         <section id="frentes" aria-labelledby="t-frentes">
             <div class="wrap">
                 <h2 id="t-frentes">O que dá para fazer em <span data-days>18</span> dias</h2>
-                <p class="lead">Escolhemos concentrar o esforço em uma coisa só: a infraestrutura que permite saber de onde veio cada informação e quem responde por ela.</p>
+                <p class="lead">Os projetos nascem das ideias da comunidade. O primeiro pilar já está definido: saber de onde veio cada informação e quem responde por ela.</p>
 
                 <div class="cards">
                     <article class="card">
@@ -107,9 +130,9 @@
                         <p>Autores, e candidaturas que quiserem, assinam o que afirmam com a assinatura digital do gov.br. Estamos validando como conferir isso na prática.</p>
                     </article>
                     <article class="card">
-                        <span class="tag">#3 · conferir</span>
-                        <h3>Site estático que você mesmo confere</h3>
-                        <p>O que for aprovado vira um site simples e aberto, sem rastreadores, com fontes e assinatura à vista para qualquer pessoa verificar.</p>
+                        <span class="tag">#3 · o seu</span>
+                        <h3>Próximos projetos: vêm de você</h3>
+                        <p>Ainda não definimos. As enquetes da comunidade é que vão dizer o que mais vale construir.</p>
                     </article>
                 </div>
             </div>
@@ -144,22 +167,6 @@
             </div>
         </section>
 
-        <section id="participar" aria-labelledby="t-part">
-            <div class="wrap">
-                <h2 id="t-part">Como participar</h2>
-                <ol class="steps">
-                    <li><div><b>Entre no grupo</b><span>É por lá que tudo acontece.</span></div></li>
-                    <li><div><b>Diga o que você sabe fazer</b><span>Programar, desenhar, gravar, escrever, revisar, divulgar. Tudo conta.</span></div></li>
-                    <li><div><b>Pegue uma tarefa pequena</b><span>De uma a duas horas já ajuda. O prazo é curto, então o recorte também.</span></div></li>
-                    <li><div><b>Mostre as fontes</b><span>Afirmou, linkou. Quem assiste precisa poder conferir.</span></div></li>
-                    <li><div><b>Compartilhe</b><span>Leve para os seus grupos. Um link vale mais que mil intenções.</span></div></li>
-                </ol>
-                <div class="actions">
-                    <a class="btn btn-wa" href="#grupo" data-whatsapp>Entrar no grupo do WhatsApp</a>
-                </div>
-            </div>
-        </section>
-
         <section id="regras" aria-labelledby="t-regras">
             <div class="wrap">
                 <h2 id="t-regras">Regras do jogo</h2>
@@ -170,9 +177,11 @@
                     <div class="add" role="listitem">+ fontes visíveis (e o link não significa endosso nosso)</div>
                     <div class="add" role="listitem">+ direito de correção e de resposta</div>
                     <div class="add" role="listitem">+ critérios de moderação públicos</div>
+                    <div class="add" role="listitem">+ critério público de como as ideias viram projeto</div>
+                    <div class="add" role="listitem">+ devolvemos o que foi escolhido e o que ficou de fora, com o motivo</div>
                     <div class="del" role="listitem">- sem rastreadores nem perfis dos visitantes</div>
                     <div class="del" role="listitem">- sem segmentação política individualizada</div>
-                    <div class="del" role="listitem">- sem dependência de plataforma proprietária</div>
+                    <div class="del" role="listitem">- o que construímos não depende de plataforma proprietária (o WhatsApp é só a porta de entrada)</div>
                 </div>
             </div>
         </section>
@@ -186,7 +195,7 @@
     </footer>
 
     <div class="sticky">
-        <a class="btn btn-wa" href="#grupo" data-whatsapp>Entrar no grupo do WhatsApp</a>
+        <a class="btn btn-wa" href="#grupo" data-whatsapp="comunidade">Dar minha ideia no WhatsApp</a>
     </div>
 </body>
 </html>

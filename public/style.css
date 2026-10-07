@@ -136,3 +136,11 @@ footer a { color: var(--muted); }
 .t-fato { background: var(--green); } .t-op { background: var(--yellow); } .t-terc { background: #8ab4ff; }
 h3.sub { font: 800 1.2rem var(--sans); margin: 36px 0 12px; }
 .card.partner h3 { margin-top: 6px; }
+
+/* Dois grupos */
+.two { display: grid; gap: 14px; margin: 28px 0 20px; }
+@media (min-width: 720px) { .two { grid-template-columns: 1fr 1fr; } }
+.two .card { display: flex; flex-direction: column; gap: 10px; }
+.two .card p { flex: 1; }
+.two .btn { width: 100%; }
+.small { font-size: .85rem; margin: 14px 0 0; }

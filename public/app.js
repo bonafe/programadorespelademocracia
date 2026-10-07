@@ -3,16 +3,16 @@ import { SITE } from './site.js';
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
 
-// Links do grupo (todos os botões com data-whatsapp)
-const group = SITE.grupoWhatsApp;
+// Links dos grupos (botões com data-whatsapp="comunidade" ou "desenvolvimento")
 for (const link of $$('[data-whatsapp]')) {
-    if (group) {
-        link.href = group;
+    const url = SITE.grupos[link.dataset.whatsapp];
+    if (url) {
+        link.href = url;
         link.target = '_blank';
         link.rel = 'noopener';
     }
 }
-document.documentElement.classList.toggle('has-group', Boolean(group));
+document.documentElement.classList.toggle('has-group', Object.values(SITE.grupos).every(Boolean));
 
 if (SITE.github) {
     for (const link of $$('[data-github]')) {
@@ -48,7 +48,7 @@ if (box && tick()) {
 }
 
 // Compartilhar: Web Share no celular; fallback para o WhatsApp.
-const text = 'Programadores pela Democracia 2026: faltam poucos dias para a eleição e a gente está construindo isso em código aberto. Entra:';
+const text = 'Programadores pela Democracia 2026: que sistema ajudaria a democracia? Dê a sua ideia:';
 for (const button of $$('[data-share]')) {
     button.addEventListener('click', async () => {
         const url = SITE.url;
