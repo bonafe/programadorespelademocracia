@@ -1,0 +1,19 @@
+# HTML: revalida sempre (conteúdo pode mudar a qualquer momento)
+/
+  Cache-Control: public, max-age=0, must-revalidate
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+# JS/CSS ainda sem hash no nome: cache curto até haver build com versionamento
+/*.js
+  Cache-Control: public, max-age=300, must-revalidate
+/*.css
+  Cache-Control: public, max-age=300, must-revalidate
+
+/og.png
+  Cache-Control: public, max-age=86400
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Content-Security-Policy: default-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'; frame-ancestors 'none'
